@@ -10,6 +10,8 @@ terraform {
 
 provider "aws" {
     region = "eu-west-1"
+    profile = "abhishek-mendix-sandbox"
+    
 }
 
 resource "aws_instance" "app_server" {
